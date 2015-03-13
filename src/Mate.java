@@ -11,4 +11,8 @@ public class Mate {
 	{
 		return a+b;
 	}
+	public int producto()
+	{
+		return 1;
+	}
 }
