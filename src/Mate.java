@@ -15,6 +15,11 @@ public class Mate {
 	{
 		return 1;
 	}
+	public int euler()
+	{
+		int j=1;
+		return j;
+	}
 	public int[][] multiplicacionmatricial(int a[][],int b[][])
 	{
 		int[][] r=new int[10][10];
