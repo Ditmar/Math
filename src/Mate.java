@@ -20,9 +20,13 @@ public class Mate {
 		int j=1;
 		return j;
 	}
+	public int vectores()
+	{
+		return 1;
+	}
 	public int[][] multiplicacionmatricial(int a[][],int b[][])
 	{
-		int[][] r=new int[10][10];
+		int[][] r=new int[a.length][a[0].length];
 		int suma;
 		for(int i =0;i<a.length;i++)
 		{
